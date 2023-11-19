@@ -30,7 +30,6 @@ namespace IIWTTTSEUGIAD_data_extract
                 subfiles.Add(subfile);
             }
 
-
             for (int i = 0; i < subFileCount; i++)
             {
                 string newFolder = Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]);
