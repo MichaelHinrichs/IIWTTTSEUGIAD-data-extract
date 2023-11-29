@@ -18,22 +18,7 @@ namespace IIWTTTSEUGIAD_data_extract
                 subfiles.Add(ReadSubfileMetadata());
 
             for (int i = 0; i < subFileCount; i++)
-            {
-                string newFolder = Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]);
-
-                SUBFILE sub = subfiles[i];
-                if (sub.name.Contains(@"\"))
-                {
-                    newFolder += "\\" + Path.GetDirectoryName(sub.name);
-                    sub.name = Path.GetFileName(sub.name);
-                }
-
-                Directory.CreateDirectory(newFolder);
-                BinaryWriter bw = new BinaryWriter(File.OpenWrite(newFolder + "\\" + sub.name));
-                br.BaseStream.Position = sub.offset;
-                bw.Write(br.ReadBytes((int)sub.size));
-                bw.Close();
-            }
+                WriteFiles(subfiles[i]);
         }
         
         static SUBFILE ReadSubfileMetadata()
@@ -50,6 +35,23 @@ namespace IIWTTTSEUGIAD_data_extract
             subfile.offset = br.ReadUInt32();
             subfile.size = br.ReadUInt32();
             return subfile;
+        }
+
+        void WriteFiles(SUBFILE sub)
+        {
+            string newFolder = Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]);
+
+            if (sub.name.Contains(@"\"))
+            {
+                newFolder += "\\" + Path.GetDirectoryName(sub.name);
+                sub.name = Path.GetFileName(sub.name);
+            }
+
+            Directory.CreateDirectory(newFolder);
+            BinaryWriter bw = new BinaryWriter(File.OpenWrite(newFolder + "\\" + sub.name));
+            br.BaseStream.Position = sub.offset;
+            bw.Write(br.ReadBytes((int)sub.size));
+            bw.Close();
         }
         
         public static string ReadString1()
