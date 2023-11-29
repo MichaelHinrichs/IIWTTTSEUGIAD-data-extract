@@ -15,20 +15,7 @@ namespace IIWTTTSEUGIAD_data_extract
             System.Collections.Generic.List<SUBFILE> subfiles = new();
 
             for (int i = 0; i < subFileCount; i++)
-            {
-                long nameOffset = br.BaseStream.Position;
-                SUBFILE subfile = new()
-                {
-                    name = ReadString1()
-                };
-                br.BaseStream.Position = nameOffset + 0x40;
-
-                int UnknownA = br.ReadInt32();
-                int UnknownB = br.ReadInt32();
-                subfile.offset = br.ReadUInt32();
-                subfile.size = br.ReadUInt32();
-                subfiles.Add(subfile);
-            }
+                subfiles.Add(ReadSubfileMetadata());
 
             for (int i = 0; i < subFileCount; i++)
             {
@@ -48,7 +35,23 @@ namespace IIWTTTSEUGIAD_data_extract
                 bw.Close();
             }
         }
+        
+        static SUBFILE ReadSubfileMetadata()
+        {
+            long nameOffset = br.BaseStream.Position;
+            SUBFILE subfile = new()
+            {
+                name = ReadString1()
+            };
+            br.BaseStream.Position = nameOffset + 0x40;
 
+            int UnknownA = br.ReadInt32();
+            int UnknownB = br.ReadInt32();
+            subfile.offset = br.ReadUInt32();
+            subfile.size = br.ReadUInt32();
+            return subfile;
+        }
+        
         public static string ReadString1()
         {
             char[] fileName = Array.Empty<char>();
