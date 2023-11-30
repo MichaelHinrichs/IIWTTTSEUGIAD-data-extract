@@ -34,10 +34,8 @@ Written for "Is It Wrong to Try to Shoot 'em Up Girls in a Dungeon?" bin files.
 [![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/main?logo=scrutinizer&logoColor=white)](https://scrutinizer-ci.com/g/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/)
 [![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
 [![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/iiwtttseugiad-data-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/iiwtttseugiad-data-extract)
-[![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e/branch/a1c13151-953c-46ad-8692-51c7318382f9)](https://dashboard.infracost.io/org/mchinrichs/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e?tab=settings#config-file-editor)
+[![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/ffe272de-b763-4b60-8aac-398b32437327/branch/8bfecbb4-b236-4c0d-be4e-f0d0d3d71203)](https://dashboard.infracost.io/org/mchinrichs/repos/ffe272de-b763-4b60-8aac-398b32437327?tab=settings)
 [![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-iiwtttseugiad-data-extract-main)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FIIWTTTSEUGIAD-data-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FIIWTTTSEUGIAD-data-extract&benchmark=CIS+AWS+V1.2)
