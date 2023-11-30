@@ -36,6 +36,7 @@ Written for "Is It Wrong to Try to Shoot 'em Up Girls in a Dungeon?" bin files.
 [![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/iiwtttseugiad-data-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/iiwtttseugiad-data-extract)
 [![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/ffe272de-b763-4b60-8aac-398b32437327/branch/8bfecbb4-b236-4c0d-be4e-f0d0d3d71203)](https://dashboard.infracost.io/org/mchinrichs/repos/ffe272de-b763-4b60-8aac-398b32437327?tab=settings)
 [![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-iiwtttseugiad-data-extract-main)
+[![Codeac](https://static.codeac.io/badges/2-713973381.svg "Codeac")](https://app.codeac.io/github/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FIIWTTTSEUGIAD-data-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FIIWTTTSEUGIAD-data-extract&benchmark=CIS+AWS+V1.2)
