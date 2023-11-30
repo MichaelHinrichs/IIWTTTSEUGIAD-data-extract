@@ -1,0 +1,40 @@
+# IIWTTTSEUGIAD-data-extract
+Written for "Is It Wrong to Try to Shoot 'em Up Girls in a Dungeon?" bin files.
+
+[![Author](https://img.shields.io/badge/author-MichaelHinrichs-blue.svg?style=flat&logo=github&logoColor=whitesmoke&label=Author)](https://github.com/MichaelHinrichs)
+![GitHub repo size](https://img.shields.io/github/repo-size/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+
+![GitHub repo Issues](https://img.shields.io/github/issues/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=Issues)
+![GitHub repo Good Issues for newbies](https://img.shields.io/github/issues/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/good%20first%20issue?style=flat&logo=github&logoColor=whitesmoke&label=Good%20First%20issues)
+![GitHub Help Wanted issues](https://img.shields.io/github/issues/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/help%20wanted?style=flat&logo=github&logoColor=whitesmoke&label=%22Help%20Wanted%22%20issues)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/MichaelHinrichs/IIWTTTSEUGIAD-data-extract.svg)](https://isitmaintained.com/project/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/MichaelHinrichs/IIWTTTSEUGIAD-data-extract.svg)](https://isitmaintained.com/project/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+
+![GitHub repo PRs](https://img.shields.io/github/issues-pr/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=PRs)
+![GitHub repo Merged PRs](https://img.shields.io/github/issues-search/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=Merged%20PRs&query=is%3Amerged)
+![GitHub Help Wanted PRs](https://img.shields.io/github/issues-pr/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/help%20wanted?style=flat&logo=github&logoColor=whitesmoke&label=%22Help%20Wanted%22%20PRs)
+
+![GitHub repo watchers](https://img.shields.io/github/watchers/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)
+![GitHub repo forks](https://img.shields.io/github/forks/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?logo=github&logoColor=whitesmoke&label=Forks)
+![GitHub repo stars](https://img.shields.io/github/stars/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=Stars)
+![GitHub last commit](https://img.shields.io/github/last-commit/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+![GitHub activity](https://img.shields.io/github/commit-activity/m/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+![GitHub release](https://img.shields.io/github/v/release/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+![GitHub org sponsors](https://img.shields.io/github/sponsors/MichaelHinrichs?style=flat&logo=github&logoColor=whitesmoke&label=Sponsors&color=bf3989)
+![GitHub repo contributors](https://img.shields.io/github/contributors-anon/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?style=flat&logo=github&logoColor=whitesmoke&label=Contributors)
+![GitHub language count](https://img.shields.io/github/languages/count/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+![GitHub language count](https://img.shields.io/github/languages/top/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?logo=codeClimate&label=maintainability%20grade)](https://codeclimate.com/github/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?logo=codeClimate&label=maintainability%20percentage)](https://codeclimate.com/github/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+[![Code Climate issues](https://img.shields.io/codeclimate/issues/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?logo=codeClimate)](https://codeclimate.com/github/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/issues?status%5B%5D=)
+[![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?logo=codeClimate)](https://codeclimate.com/github/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/MichaelHinrichs/IIWTTTSEUGIAD-data-extract?logo=codeFactor&logoColor=white&label=Grade)](https://www.codefactor.io/repository/github/michaelhinrichs/iiwtttseugiad-data-extract)
+[![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/main?logo=scrutinizer&logoColor=white)](https://scrutinizer-ci.com/g/MichaelHinrichs/IIWTTTSEUGIAD-data-extract/)
+[![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
+[![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/iiwtttseugiad-data-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/iiwtttseugiad-data-extract)
+[![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e/branch/a1c13151-953c-46ad-8692-51c7318382f9)](https://dashboard.infracost.io/org/mchinrichs/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e?tab=settings#config-file-editor)
+[![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-iiwtttseugiad-data-extract-main)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/MichaelHinrichs/IIWTTTSEUGIAD-data-extract)
