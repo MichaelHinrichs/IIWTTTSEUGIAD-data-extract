@@ -24,17 +24,17 @@ namespace IIWTTTSEUGIAD_data_extract
         static SUBFILE ReadSubfileMetadata()
         {
             long nameOffset = br.BaseStream.Position;
-            SUBFILE subfile = new()
-            {
-                name = ReadString1()
-            };
+            string name = ReadString1();
             br.BaseStream.Position = nameOffset + 0x40;
 
             int UnknownA = br.ReadInt32();
             int UnknownB = br.ReadInt32();
-            subfile.offset = br.ReadUInt32();
-            subfile.size = br.ReadUInt32();
-            return subfile;
+            return new SUBFILE
+            {
+                name = name,
+                offset = br.ReadUInt32(),
+                size = br.ReadUInt32()
+            });
         }
 
         void WriteFiles(SUBFILE sub)
