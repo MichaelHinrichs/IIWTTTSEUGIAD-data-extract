@@ -18,7 +18,7 @@ namespace IIWTTTSEUGIAD_data_extract
                 subfiles.Add(ReadSubfileMetadata());
 
             for (int i = 0; i < subFileCount; i++)
-                WriteFiles(subfiles[i]);
+                WriteFiles(subfiles[i], args[0]);
         }
         
         static SUBFILE ReadSubfileMetadata()
@@ -34,12 +34,12 @@ namespace IIWTTTSEUGIAD_data_extract
                 name = name,
                 offset = br.ReadUInt32(),
                 size = br.ReadUInt32()
-            });
+            };
         }
 
-        void WriteFiles(SUBFILE sub)
+        static void WriteFiles(SUBFILE sub, string file)
         {
-            string newFolder = Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]);
+            string newFolder = Path.GetDirectoryName(file) + "\\" + Path.GetFileNameWithoutExtension(file);
 
             if (sub.name.Contains(@"\"))
             {
